@@ -41,6 +41,20 @@ Quartus II 9.0 reports included under quartus_baseline:
 - Setup slack +5.615 ns; hold slack +0.391 ns.
 - Full compilation successful, 0 errors, 4 remaining warnings.
 
+## Visual results
+
+### ModelSim: compilation and scoreboard PASS
+![ModelSim compilation and scoreboard PASS with zero errors](docs/images/modelsim-pass.jpg)
+
+### ModelSim waveforms
+![FIFO data, flags and scoreboard waveforms](docs/images/modelsim-waveforms.jpg)
+
+### Quartus resource usage
+![Quartus compilation and resource usage: 170 logic elements and 154 registers](docs/images/quartus-resources.jpg)
+
+### Quartus timing analysis
+![Quartus timing at 100 MHz with estimated internal Fmax of 228.05 MHz](docs/images/quartus-timing.jpg)
+
 ## Quartus
 Open quartus_baseline/fifo_baseline.qpf. The sync_fifo revision references ../sync_fifo.v. The testbench is not a synthesis source.
 
