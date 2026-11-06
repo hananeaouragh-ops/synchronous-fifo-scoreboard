@@ -1,0 +1,2 @@
+# ModelSim .do files are Tcl scripts, not Stata programs.
+*.do linguist-language=Tcl
