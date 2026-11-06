@@ -1,0 +1,11 @@
+work/
+db/
+incremental_db/
+*.wlf
+wlf*
+*.bak
+*.qws
+*.sof
+*.pof
+modelsim.ini
+transcript
